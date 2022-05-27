@@ -7,7 +7,7 @@ package paquete5;
 
 import java.util.ArrayList;
 import paquete1.Profesor;
-
+import paquete1.Calificacion;
 /**
  *
  * @author reroes
@@ -31,9 +31,16 @@ public class ManejoArrayList2 {
         System.out.println("-----------------------------");
         
         // ArrayList
+        ArrayList <Calificacion> calificaciones = new ArrayList<>();
+        calificaciones.add(c1); 
+        calificaciones.add(c2); 
+        
+         System.out.println("-----------------------------");
+        
+        // ArrayList
         ArrayList <Profesor> profesores2 = new ArrayList<>();
         profesores2.add(prof1); // 0
-        profesores2.add(prof2); // 1
+        profesores2.add(prof2); // 
         
         // System.out.println(profesores2.get(1).obtenerTipo());
         
